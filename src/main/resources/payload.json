@@ -1,0 +1,273 @@
+{
+  "trackingEvent": {
+    "barcode": "8144444444",
+    "collectionId": null,
+    "eventDateTime": "2019-03-18T14:12:00",
+    "availableDateTime": null,
+    "eventCategory": "PARENT_TO_PARENT",
+    "depotId": null,
+    "routeId": null,
+    "allowEmptying": false,
+    "eventLocation": {
+      "nodeIdentifier": {
+        "id": "11",
+        "type": "DEPOT"
+      }
+    },
+    "waypoint": {
+      "waypointId": "WPT"
+    },
+    "trackPointId": 1012,
+    "externalTrackPointId": "PREADVL",
+    "manifestNumber": null,
+    "client": {
+      "clientId": 670,
+      "clientName": "Parcelnet",
+      "clientShortName": null,
+      "childClientId": null,
+      "childClientName": null,
+      "clientType": null
+    },
+    "preadviceDetail": {
+      "deliveryDetails": {
+        "barcode": "8112193762234698",
+        "services": {
+          "service": []
+        },
+        "messages": {
+          "message": []
+        },
+        "destination": {
+          "nodeIdentifier": {
+            "type": "COURIER_ROUND",
+            "id": "811211"
+          },
+          "depotNodeIdentifier": {
+            "type": "DEPOT",
+            "id": "81"
+          },
+          "deliveryMethodId": "004",
+          "carrierId": "00",
+          "name": "Test Automation",
+          "contactDetails": {
+            "address": {
+              "addressType": "DELIVERY",
+              "addressLine1": "19 Lay Garth",
+              "addressLine2": null,
+              "addressLine3": null,
+              "addressLine4": null,
+              "addressLine5": null,
+              "addressLine6": null,
+              "postcode": "LS26 0TW",
+              "countryCode": "GB",
+              "gpsCoordinates": {
+                "gpsLatitude": 53.7475534,
+                "gpsLongitude": -1.4830376,
+                "gpsDuration": null,
+                "gpsRadioIndicator": null,
+                "gpsValidity": "VALID",
+                "geofenceRadius": null,
+                "geofenceTimeout": null
+              }
+            },
+            "telephone": null,
+            "mobile": null,
+            "work": null,
+            "email": null,
+            "alertType": null,
+            "alertGroup": null
+          },
+          "route": {
+            "routeType": "COURIER",
+            "routeId": "8193",
+            "startLocation": {
+              "type": "DEPOT",
+              "id": "81"
+            },
+            "drops": null,
+            "waveIndicator": null,
+            "sortLevels": {
+              "sortLevel": [
+                {
+                  "sortType": "DEPOT",
+                  "sortCode": "81",
+                  "sortDescription": "BRAD"
+                },
+                {
+                  "sortType": "VAN",
+                  "sortCode": "93",
+                  "sortDescription": "93"
+                },
+                {
+                  "sortType": "DROP",
+                  "sortCode": "06",
+                  "sortDescription": "06"
+                },
+                {
+                  "sortType": "C-ROUND",
+                  "sortCode": "1211",
+                  "sortDescription": "1211"
+                },
+                {
+                  "sortType": "",
+                  "sortCode": "",
+                  "sortDescription": ""
+                }
+              ]
+            }
+          },
+          "additionalRoutingInformation": {
+            "additionalRouting": []
+          }
+        },
+        "linkedBarcodes": {
+          "barcodeDetail": []
+        },
+        "parcelId": 703064208,
+        "expectedDespatchDate": "2019-02-25"
+      },
+      "collectionDetails": null,
+      "parcelDetails": {
+        "description": null,
+        "currency": "GBP",
+        "monetaryValue": 100,
+        "numberOfParts": 1,
+        "numberOfItems": 1,
+        "hangingGarment": false,
+        "catalogue": false,
+        "countryOfOrigin": null,
+        "incoTerm": null,
+        "volumetricInfoDetails": {
+          "volumetricInfo": [
+            {
+              "weightUsedForInvoicing": null,
+              "volumetricType": "PREADVISED",
+              "weight": {
+                "value": 0,
+                "unit": "g"
+              },
+              "length": {
+                "value": 0,
+                "unit": "cm"
+              },
+              "width": {
+                "value": 0,
+                "unit": "cm"
+              },
+              "depth": {
+                "value": 0,
+                "unit": "cm"
+              },
+              "girth": {
+                "value": 0,
+                "unit": "cm"
+              },
+              "volume": {
+                "value": 0,
+                "unit": "cm3"
+              },
+              "combinedDimension": {
+                "value": 0,
+                "unit": "cm"
+              }
+            },
+            {
+              "weightUsedForInvoicing": "VOLUMETRIC",
+              "volumetricType": "PREADVISED_VALIDATED",
+              "weight": {
+                "value": 1,
+                "unit": "g"
+              },
+              "length": {
+                "value": 1,
+                "unit": "cm"
+              },
+              "width": {
+                "value": 0,
+                "unit": "cm"
+              },
+              "depth": {
+                "value": 0,
+                "unit": "cm"
+              },
+              "girth": {
+                "value": 0,
+                "unit": "cm"
+              },
+              "volume": {
+                "value": 0,
+                "unit": "cm3"
+              },
+              "combinedDimension": {
+                "value": 1,
+                "unit": "cm"
+              }
+            }
+          ]
+        }
+      },
+      "parcelType": {
+        "parcelTypeId": 14,
+        "description": "Packet"
+      },
+      "customer": {
+        "customerReference1": "AUTO1",
+        "customerReference2": null
+      }
+    },
+    "finalDestinationNode": null,
+    "sourceId": "DEPOT",
+    "carrierId": "00",
+    "services": null,
+    "additionalInformation": null,
+    "userIdentifier": {
+      "resourceId": "12321"
+    },
+    "billingUserIdentifier": null,
+    "parentBarcode": "0800000010",
+    "signatureName": null,
+    "destinations": {
+      "destination": [
+        {
+          "destinationNode": {
+            "type": "DEPOT",
+            "id": "79"
+          },
+          "expectedArrival": null
+        },
+        {
+          "destinationNode": {
+            "type": "HUB",
+            "id": "80"
+          },
+          "expectedArrival": null
+        }
+      ]
+    }
+  },
+  "trackingEventSource": "PARCELDOMAIN",
+  "originalParcelCreationTime": "2019-03-01T10:44:45Z",
+  "trackingStage": "Standard",
+  "trackingType": "DELIVERY",
+  "endOfLifeIndicator": false,
+  "collectionRef": null,
+  "previousBarcodes": null,
+  "uppIndicator": false,
+  "upp": null,
+  "preadviceCreateAttempted": false,
+  "previousParentCreate": {
+    "startTimestamp": "2019-02-25T00:00:00",
+    "endTimestamp": "2019-03-01T10:44:44"
+  },
+  "parentItems": [
+    {
+      "parentBarcode": "0800000010",
+      "itemId": "703064208",
+      "addedTimestamp": "2019-03-18T14:12:00",
+      "removalTimestamp": "2019-03-19T14:23:00",
+      "parentItemType": "P"
+    }
+  ],
+  "instanceStartTimestamp" : "2019-02-20T00:00:00",
+  "currentWaypointShortName" : "D010"
+}
