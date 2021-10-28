@@ -34,11 +34,11 @@ public class PublisherRunner implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        Message message = fileToMessage();
+        Message[] messages = { fileToMessage(resource) };
         if (publishRate > 0) {
-            publishAtRate(message);
+            publishAtRate(messages);
         } else {
-            publishUnrestricted(message);
+            publishUnrestricted(messages);
         }
         context.close();
     }
@@ -64,11 +64,13 @@ public class PublisherRunner implements ApplicationRunner {
 
     private void publishUnrestricted(Message... messages) {
         for (int i = 0; i < totalMessages; i++) {
-            rabbitTemplate.send(messages[0]);
+            for (Message message : messages) {
+                rabbitTemplate.send(message);
+            }
         }
     }
 
-    private Message fileToMessage() throws IOException {
+    private Message fileToMessage(Resource resource) throws IOException {
         String file = Files.readString(resource.getFile().toPath());
         MessageProperties properties = new MessageProperties();
         properties.setContentType(MessageProperties.CONTENT_TYPE_JSON);
